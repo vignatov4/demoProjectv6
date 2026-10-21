@@ -1,0 +1,20 @@
+{
+  "name": "demoprojectv6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "allure:generate": "allure generate allure-results -o allure-report",
+    "allure:open": "allure open allure-report",
+    "test:report": "node scripts/test-report.js"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4",
+    "allure": "^3.21.0",
+    "allure-playwright": "^3.13.0"
+  }
+}
